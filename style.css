@@ -1,19 +1,20 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("images/melloyellow.jpg");
       background-size: cover;
       color: white;
     }
     .nav {
-      color: white;
+      color:#4ff4a2;
     }
     h1 {
       font-size: 70px;
+       color:#7cfad9 ;
     }
     img {
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+      border: 7px solid #7cfad9;
+      border-radius: 40px;
     }
     ul {
       padding: 10px;
@@ -32,10 +33,14 @@
       height:300px;
       width: 300px;
     }
+    .project {
+      font-family: cursive;
+    }
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
         padding: 5px;
+        font: "cursive";
       }
       li {
         padding: 5px;
