@@ -1,6 +1,5 @@
     header {
       text-align: center;
-      background: url("images/melloyellow.jpg");
       background-size: cover;
       color: white;
     }
@@ -10,6 +9,8 @@
     h1 {
       font-size: 70px;
        color:#7cfad9 ;
+        padding: 5px;
+        font: "cursive"; 
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -35,16 +36,23 @@
     }
     .project {
       font-family: cursive;
+      color:#00ffff ;
+      font-size: 20px
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-        font: "cursive";
       }
       li {
         padding: 5px;
         display: block;
+       
+      } 
+    #yellow {
+        background: url("images/melloyellow.jpg");
+    }
+        
+    #blue   {
+        background-color: #ff1bff
+       
       
       }
-    }
+    
